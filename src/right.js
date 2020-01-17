@@ -2,28 +2,16 @@ import React, { Component } from 'react';
 
 export default class Right extends Component {
 
-    contentWithComments = () =>{
-        return {
-            display: 'flex'
-        }
-    }
-
     textComments = () =>{
         return {
             textDecoration: 'italic',
             alignSelf : 'flex-end'
         }
     }
-    rightBig = () => {
-        return {
-           overflow : 'auto',
-           fontFamily: 'Catamaran',
 
-        }
-    }
     render() {
         return (
-            <div className="right-container" style={this.rightBig()} >
+            <div className="right-container">
                 <div className="cont-container">
                     <p className="emphasizeTitle">INTRO</p>
                     <div>
@@ -48,9 +36,9 @@ export default class Right extends Component {
                 <div className="cont-container">
                     <p className="emphasizeTitle">EDUCATION</p>
                     <div className="trueContent">
-                    <div style={this.contentWithComments()}>
+                    <div >
                     <p style={{flex: '1'}}><b>Universiti Teknologi PETRONAS</b></p>
-                    <p style={this.textComments()}>September 2018 - January 2022</p>
+                    <p className="details">September 2018 - January 2022</p>
                     </div>
                     <p><b><i>Bachelor in Information Technology (Hons.)</i></b></p>
                     <p>Minor: Corporate Management</p>
@@ -73,25 +61,18 @@ export default class Right extends Component {
                 <div className="cont-container">
                     <p className="emphasizeTitle">PERSONAL PROJECTS</p>
                     <div className="trueContent">
-                        <div style={this.contentWithComments()}>
-                            <p style={{flex: '1'}}><b>Resume</b></p>
-                            <a style={this.textComments()}>https://github.com/engkuzahimi/resume-v1</a></div>
+                        <div>
+                            <p><b>Resume</b></p>
+                            <a className="details" >https://github.com/engkuzahimi/resume-v1</a></div>
                             <p>A web version of my resume build using React.</p>
-                    <div style={this.contentWithComments()}>
-                            <p style={{flex: '1'}}><b>itnerary.com</b></p>
-                            <a href="" style={this.textComments()}>https://github.com/engkuzahimi/resume-v1</a></div>
-                   
                     </div>
                     </div>
+                    
                     
                 <div className="cont-container">
                     <p className="emphasizeTitle">EXPERIENCE</p>
                     <div className="trueContent">
-                    <p>Lorem iaspasjfoasdnfoknasdoinoisdnfvofnsdoivnoisdniovvvvvvvvvsd
-                        dsfsadjfsaoidjfoiasdfojsa
-                        sdfiasdfoiasdoifjoidsjfoiadjsoifioasdfjiosdnsdvnsodivnosd-pdadas
-                        asdfkoasdoifvndsovinsdoivnsdionodncoidsniocnsoidncoiansoicnaoiscoiascnaoisncoiasskok
-                        sdcioafcioaoiscnoi
+                    <p>
                     </p>
                     </div>
                 </div>

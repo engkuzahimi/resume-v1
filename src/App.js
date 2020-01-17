@@ -11,8 +11,9 @@ function App() {
     <div className="mainPage">
       <div className="left">
       <Left /></div>
-      <div className="right" data-aos="fade-in">
-      <Right /></div>
+      <div className="right" >
+        <Right />
+      </div>
       
     </div>
     
