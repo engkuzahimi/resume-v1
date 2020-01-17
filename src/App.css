@@ -6,12 +6,17 @@
 }
 
 .mainPage{
-  display: grid;
-  grid-template-columns:43% 57%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   height: 100vh;
 }
 
+
+
+
 .right-container{
+  font-size: 13px;
   padding: 30px 20px;
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(4, 20vh));
@@ -38,8 +43,9 @@
 .left {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(#fc4a1a, #f7b733);
+  
+  background: url(./me.jpg) center center no-repeat;
+  background-size: cover ;
   font-family: 'Catamaran';
   font-size: 15px;
 }
@@ -57,3 +63,47 @@ img {
   max-height: 100% ;
   opacity: 0.7;
 }
+
+.left-content{
+  position: relative;
+        
+      opacity: ;
+}
+
+@media screen and (max-width: 700px) {
+  *{
+    width: 100%;
+  }
+  .mainPage{
+    width: device-width;
+    flex-direction: column;
+  }
+  .left{
+    height: 100vh;
+    overflow: visible;
+  }
+
+  .left-content {
+    height: 100%;
+  }
+
+  .cont-container{
+    flex-direction: column ;
+  }
+  .emphasizeTitle{
+    flex: 1;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .right{
+    overflow: inherit;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .right-container{
+    padding: 30px 30px;
+    font-size: 18px;
+    display: grid;
+  }}

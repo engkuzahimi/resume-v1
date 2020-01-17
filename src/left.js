@@ -3,14 +3,6 @@ import myImg from './me.jpg'
 import { findRenderedComponentWithType } from 'react-dom/test-utils'
 export class Left extends Component {
 
-Base = () => {
-    return{
-        position: 'relative',
-        width : '100%',
-        background: 'blue',
-        height:  '100%',
-    }
-}
 
 helloText = () =>{
     return{
@@ -28,13 +20,15 @@ helloText = () =>{
 }
     render() {
         return (
-            <div style={this.Base()}>
-                <img src={myImg} alt="myIg"></img>
+            <div className="left-content" >
                 <div style={this.helloText()}>
                     <h2>Hi, I am Zahimi!</h2>
                     <p>Information Technology Student @  Universiti Teknologi Petronas</p>
                     <p>Looking for Intership oppurtunities (May 2020 - December 2020)</p>
-                                    
+
+                    <div>
+                        <a href="google.com"><i class="fas fa-mobile-alt"></i></a>
+                        </div>                
                 </div>
             </div>
         )

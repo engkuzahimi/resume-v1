@@ -18,13 +18,12 @@ export default class Right extends Component {
         return {
            overflow : 'auto',
            fontFamily: 'Catamaran',
-           fontSize: '13px'
 
         }
     }
     render() {
         return (
-            <div className="right-container" style={this.rightBig()}>
+            <div className="right-container" style={this.rightBig()} >
                 <div className="cont-container">
                     <p className="emphasizeTitle">INTRO</p>
                     <div>
@@ -74,10 +73,17 @@ export default class Right extends Component {
                 <div className="cont-container">
                     <p className="emphasizeTitle">PERSONAL PROJECTS</p>
                     <div className="trueContent">
-                    <p>itnerary.com</p>
-                    <p>Resume</p>
+                        <div style={this.contentWithComments()}>
+                            <p style={{flex: '1'}}><b>Resume</b></p>
+                            <a style={this.textComments()}>https://github.com/engkuzahimi/resume-v1</a></div>
+                            <p>A web version of my resume build using React.</p>
+                    <div style={this.contentWithComments()}>
+                            <p style={{flex: '1'}}><b>itnerary.com</b></p>
+                            <a href="" style={this.textComments()}>https://github.com/engkuzahimi/resume-v1</a></div>
+                   
                     </div>
-                </div>
+                    </div>
+                    
                 <div className="cont-container">
                     <p className="emphasizeTitle">EXPERIENCE</p>
                     <div className="trueContent">
