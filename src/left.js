@@ -9,7 +9,10 @@ export class Left extends Component {
                     <h2>Hi, I am Zahimi!</h2>
                     <p>Information Technology Student @ <br /> Universiti Teknologi Petronas</p>
                     <p>Looking for Internship oppurtunities (May 2020 - December 2020)</p>
-                    <a href="google.com"><i class="fas fa-mobile-alt"></i></a>
+                    <div className="icon">
+                    <a href="tel:[+60174730061]"><i class=" white fas fa-mobile-alt"></i></a>
+                    <a href="mailto:[engku_16003930@utp.edu.my"><i class="far fa-envelope white"></i></a>
+                    <a href="https://github.com/engkuzahimi" target="_blank"><i class="white fab fa-github"></i></a></div>
                     <a href="https://google.com" className="pdfButton">Get my resume in PDF!</a>
                     </div>
         )

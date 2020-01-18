@@ -24,11 +24,11 @@ export default class Right extends Component {
                     <p className="emphasizeTitle" >SKILLS</p>
                     <div className="trueContent">
                     <ul>
-                        <li>Language: HTML, CSS, JavaScript, Java</li>
-                        <li>Framework & Libraries: React</li>
-                        <li>Tools: git, npm</li>
-                        <li>Design: Adobe Illustrator</li>
-                        <li>Experienced in building and maintaining computers</li>
+                        <li><b>Languages:</b> JavaScript (ES6), HTML, CSS, Java, C++, PHP, SQL</li>
+                        <li><b>Framework & Libraries:</b> React.js</li>
+                        <li><b>Tools:</b> git, npm, Microsoft Power BI</li>
+                        <li><b>Design:</b> Adobe Illustrator, Adobe XD</li>
+                        <li><b>Experienced in building and maintaining computers</b></li>
                     </ul>
                     </div>
                 
@@ -61,14 +61,21 @@ export default class Right extends Component {
                 <div className="cont-container">
                     <p className="emphasizeTitle">PERSONAL PROJECTS</p>
                     <div className="trueContent">
-                        <div>
+                        <div className="manySections">
+                            <div className="manySectionTitle">
                             <p><b>Resume</b></p>
-                            <a className="details" >https://github.com/engkuzahimi/resume-v1</a></div>
-                            <p>A web version of my resume build using React.</p>
+                            <a href="https://github.com/engkuzahimi/resume-v1" className="details"><i>https://github.com/engkuzahimi/resume-v1</i></a></div>
+                            <p>A web version of my resume build using React.</p></div>
+                    <div className="manySections">
+                        <div className="manySectionTitle">
+                            <p><b>itnerarygroup</b></p>
+                            <a href="https://engkuzahimi.github.io/itnerary-website" className="details"><i>https://engkuzahimi.github.io/itnerary-website</i></a></div>
+                            <p>A website that originally a team project from my Web Development class, it is website  of image gallery of popular tourists destinations all over Southeast Asia.</p> 
+                           <p>Build using HTML, CSS, PHP and vanilla JavaScript (ES6). Also utilized Unsplash.com API for fetching high quality images from their website.</p>
                     </div>
                     </div>
-                    
-                    
+                    </div>
+                
                 <div className="cont-container">
                     <p className="emphasizeTitle">EXPERIENCE</p>
                     <div className="trueContent">
