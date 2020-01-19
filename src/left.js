@@ -13,7 +13,7 @@ export class Left extends Component {
                     <a href="tel:[+60174730061]"><i class=" white fas fa-mobile-alt"></i></a>
                     <a href="mailto:[engku_16003930@utp.edu.my"><i class="far fa-envelope white"></i></a>
                     <a href="https://github.com/engkuzahimi" target="_blank"><i class="white fab fa-github"></i></a></div>
-                    <a href="https://google.com" className="pdfButton">Get my resume in PDF!</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1ECHwNxj078i9jGz8Wy4mgTR6eFte0cp9/view?usp=sharing" className="pdfButton">Get my resume in PDF!</a>
                     </div>
         )
     }
